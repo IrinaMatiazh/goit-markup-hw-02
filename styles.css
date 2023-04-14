@@ -1,1 +1,20 @@
+:root{
+   -- primary-front: 'Roboto';
+   -- aditionary-front: 'Raleway';
+   -- primary-text-color: #2E2F42 ;
+   -- title-text-color: #2E2F42 ;
+   -- title-text-color2: #2E2F42
+   -- accent-color: #2E2F42
 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    front-family: 'Roboto', sens-serif;
+    color: var(--title-text-color);
+
+}
