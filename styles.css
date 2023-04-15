@@ -1,20 +1,216 @@
-:root{
-   -- primary-front: 'Roboto';
-   -- aditionary-front: 'Raleway';
-   -- primary-text-color: #2E2F42 ;
-   -- title-text-color: #2E2F42 ;
-   -- title-text-color2: #2E2F42
-   -- accent-color: #2E2F42
-
+:root {
+  --primary-front: "Roboto";
+  --aditionary-front: "Raleway";
+  --primary-text-color: #2e2f42;
+  --title-text-color: #2e2f42;
+  --title-text-color2: #2e2f42;
+  --accent-color: #4d5ae5;
 }
 
-*{
-    margin: 0;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sens-serif;
+  color: var(--title-text-color);
+}
+.link {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+
+.header {
+  background-color: var(--title-text-color2);
+}
+
+.logo {
+  color: var(--title-text-color);
+  font-family: var(--additional-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+
+.web {
+  color: var(--accent-color);
+}
+.header-nav-link {
+  text-decoration: none;
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1,4;
+  letter-spacing: 0.02em;
+}
+
+.header-nav-link {
+  color: var(--title-text-color);
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: var(--accent-color);
+}
+
+.contact {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1,5;
+  letter-spacing: 0.02em;
+}
+
+.contact:hover,
+.contact:focus {
+  color: var(--accent-color);
+}
+
+.hero{
+    background-color: #2F303A;
+}
+
+.hide{
+    border: 0;
+    clip: rect(1px,1px,1px,1px);
+    -webkit-clip-path:inset(50%);
+    clip-path:inset(50%);
+    height:1px;
+    margin: -1px;
+    overflow: hidden;
     padding: 0;
+    position: absolute;
+    width:1px ;
 }
 
-body{
-    front-family: 'Roboto', sens-serif;
-    color: var(--title-text-color);
+h1,
+h2,
+h3{
+    margin: 0;
 
+}
+
+
+.main-title{
+font-family: var(--primary-font);
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--title-text-color2);
+}
+
+.button{
+font-family: inherit;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color:var(--title-text-color2);
+background: var(--accent-color);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+cursor:pointer
+
+}
+
+.button:hover,
+.button:focus{
+   color:var(--title-text-color2);
+   }
+  
+.section-title{
+    font-size: 36px;
+    line-height: 1.12;
+    letter-spacing: 0.03em;
+}
+
+
+.third-header{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-family: var(--title-text-color);
+    
+}
+
+.description-paragraph{
+    font-family:var(--primary-font);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    
+    }
+
+.job-title{
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+   }
+
+
+description{
+    color: #212121;
+}
+.button-portfolio{
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+    background: #F5F4FA;
+    border: none;
+    border-radius: 4px;
+    cursor:pointer
+   
+}
+
+.button-portfolio:hover
+{
+    background-color: var(--accent-color);
+    color:var(--title-text-color2); 
+   }
+
+   .hide-gallery{
+    border: 0;
+    clip: rect(1px,1px,1px,1px);
+    -webkit-clip-path:inset(50%);
+    clip-path:inset(50%);
+    height:1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width:1px ;
+   }
+
+   .gallery-header{
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em; 
+}
+
+    .gallery-paragraph{
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
 }
