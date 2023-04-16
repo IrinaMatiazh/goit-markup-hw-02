@@ -71,13 +71,13 @@ a {
   color: var(--slate);
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
 .contact:hover,
 .contact:focus {
-  color: var(--iris);
+  color: var(--ocean);
 }
 
 .hero {
