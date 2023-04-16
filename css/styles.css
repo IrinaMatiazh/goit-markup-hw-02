@@ -213,7 +213,7 @@ h3 {
   color: var(--slate);
 }
 
-footer {
+.footer {
   background-color: var(--navy-blue);
 }
 
