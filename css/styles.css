@@ -49,7 +49,7 @@ a {
 }
 .header-nav-link {
   color: var(--navy-blue);
-  font-family: var(--primary-font);
+  font-family: var(--primary-font), sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.4;
@@ -102,7 +102,7 @@ h3 {
 }
 
 .main-title {
-  font-family: var(--primary-font);
+  font-family: var(--primary-font), sans-serif;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -149,7 +149,7 @@ h3 {
 }
 
 .description-paragraph {
-  font-family: var(--primary-font);
+  font-family: var(--primary-font), sans-serif;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -167,7 +167,7 @@ h3 {
   color: var(--slate);
 }
 .button-portfolio {
-  font-family: var(--primary-font);
+  font-family: var(--primary-font), sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -213,7 +213,7 @@ h3 {
   color: var(--slate);
 }
 
-.footer {
+footer {
   background-color: var(--navy-blue);
 }
 
@@ -231,15 +231,15 @@ h3 {
 .footer-link {
   color: var(--navy-blue);
   text-decoration: none;
-  font-family: var(--primary-font);
+  font-family: var(--primary-font), sans-serif;
 }
 
 .logo-footer {
-  color: var(--navy-blue);
-  font-family: var(--additional-font);
+  color: var(--iris);
+  font-family: var(--additional-font), sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
 }
 
