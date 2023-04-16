@@ -61,6 +61,10 @@ a {
   color: var(--ocean);
 }
 
+.address {
+  font-style: normal;
+}
+
 .contact {
   color: var(--slate);
   font-weight: 500;
