@@ -21,7 +21,7 @@ body {
   background-color: var(--white);
 }
 .link {
-  list-style: none;
+  text-decoration: none;
 }
 a {
   text-decoration: none;
