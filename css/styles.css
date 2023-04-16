@@ -3,6 +3,7 @@
   --aditionary-font: "Raleway";
   --navy-blue: #2e2f42;
   --iris: #4d5ae5;
+  --ocean: #404bbf;
   --cloud: #f4f4fd;
   --slate: #434455;
   --white: #ffffff;
@@ -63,7 +64,7 @@ a {
 
 .list-link:hover,
 .list-link:focus {
-  color: var(--iris);
+  color: var(--ocean);
 }
 
 .contact {
