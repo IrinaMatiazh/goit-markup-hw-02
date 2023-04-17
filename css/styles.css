@@ -327,8 +327,16 @@ h3 {
   color: var(--color-navy-blue);
 }
 .p-slovo {
-
+  font-size: 16px 
 }
 .what-are-we-heading {
   font-size: 36px;line-height: 1.11;text-align: center ;text-transform: capitalize;color: var(--color-navy-blue);
+}
+
+.our-team-section {
+  background-color: #F4F4FD;
+}
+
+.our-team-list-item {
+  background-color:var(--color-white);
 }
