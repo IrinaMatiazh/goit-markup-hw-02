@@ -329,3 +329,6 @@ h3 {
 .p-slovo {
 
 }
+.what-are-we-heading {
+  font-size: 36px;line-height: 1.11;text-align: center ;text-transform: capitalize;color: var(--color-navy-blue);
+}
