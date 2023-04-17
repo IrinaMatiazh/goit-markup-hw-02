@@ -308,9 +308,24 @@ h3 {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--color-white);
+  cursor: pointer;
 }
 .solution-button:hover,
-.solution-button:active {
+.solution-button:focus {
   background-color: var(--color-ocean);
-  cursor: pointer;
+}
+
+.h-slovo {
+  visibility: hidden;
+}
+
+.h3-slovo {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
+}
+.p-slovo {
+  
 }
