@@ -287,3 +287,30 @@ h3 {
 .web-footer {
   color: var(--color-cloud);
 }
+
+/* Index html styles */
+
+.section-solutions {
+  background-color: var(--color-navy-blue);
+}
+.h-solutions {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--color-white);
+}
+.solution-button {
+  background-color: var(--color-iris);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-white);
+}
+.solution-button:hover,
+.solution-button:active {
+  background-color: var(--color-ocean);
+  cursor: pointer;
+}
