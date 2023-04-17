@@ -319,7 +319,7 @@ h3 {
   visibility: hidden;
 }
 
-.h3-slovo {
+.hthree-slovo {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -327,5 +327,5 @@ h3 {
   color: var(--color-navy-blue);
 }
 .p-slovo {
-  
+
 }
