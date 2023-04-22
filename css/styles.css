@@ -14,11 +14,6 @@
   --color-dairy: #fcfcfc;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
 body {
   font-family: var(--primary-font), sans-serif;
   color: var(--color-slate);
@@ -30,17 +25,7 @@ body {
   
 }
 
-.link {
-  text-decoration: none;
-}
-a {
-  font-style: normal;
-}
-
-.header {
-  background-color: var(--color-white);
-}
-
+/* Header */
 .logo {
   color: var(--color-iris);
   font-family: "Raleway", sans-serif;
@@ -51,7 +36,6 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
-
 .web {
   color: var(--color-navy-blue);
 }
@@ -66,12 +50,20 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
 .header-nav-link:hover,
 .header-nav-link:focus {
   color: var(--color-ocean);
 }
+.link {
+  text-decoration: none;
+}
+a {
+  font-style: normal;
+}
 
+.header {
+  background-color: var(--color-white);
+}
 .address {
   font-style: normal;
 }
@@ -100,10 +92,11 @@ a {
   color: var(--color-ocean);
 }
 
+/* Main */
+/* Hero Section */
 .hero {
   background-color: var(--color-navy-blue);
 }
-
 .order-button {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -117,7 +110,6 @@ a {
   color: var(--color-white);
   cursor: pointer;
 }
-
 .order-button:hover {
   background: var(--color-ocean);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -264,7 +256,7 @@ h3 {
   color: var(--color-slate);
 }
 
-<!-- Footer -->
+/* Footer */
 .footer {
   background-color: var(--color-navy-blue);
 }
@@ -288,6 +280,13 @@ h3 {
 
 .web-footer {
   color: var(--color-cloud);
+}
+
+.footer-text {
+  width: 264px;
+  color: var(--color-cloud);
+  line-height: 24px;
+  letter-spacing: 0.02em;
 }
 
 /* Index html styles */
@@ -316,22 +315,22 @@ h3 {
 .solution-button:focus {
   background-color: var(--color-ocean);
 }
-
-.h-slovo {
+/* Advantages Section */
+.advantages-title {
   visibility: hidden;
 }
-
-.hthree-slovo {
+.hadvantages-caption {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
 }
-.p-slovo {
+.advantages-text {
   font-size: 16px;
 }
-.what-are-we-heading {
+/* Work Section */
+.work-title {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -339,11 +338,10 @@ h3 {
   text-transform: capitalize;
   color: var(--color-navy-blue);
 }
-
-.our-team-section {
+/* Team Section */
+.team-title{
   background-color: #f4f4fd;
 }
-
 .our-team-list-item {
   background-color: var(--color-white);
 }
